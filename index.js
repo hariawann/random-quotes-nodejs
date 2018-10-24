@@ -39,8 +39,6 @@ serverHttps.listen(config.httpsPort,()=>{
 
 const myUnifyServer = (req,res)=>{
 
-    process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
-
     //memparsing url dengan parameter true sehingga dapat url dengan querystringnya juga
     const parsedUrl = url.parse(req.url,true);
 
