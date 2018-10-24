@@ -1,9 +1,7 @@
 # random-quotes-nodejs
 simple apps random quotes based nodejs web app
 
-Clone
+Clone this project
 ```
-git status
-git add
-git commit
+https://github.com/hariawann/random-quotes-nodejs.git
 ```
